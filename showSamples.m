@@ -31,7 +31,7 @@ showCols = ceil(length(folders)/showRows);
 
 fileNames = listdir(fullfile(params.savePath,folders{1}),'/*.wzp');
 
-for idx = 35:length(fileNames)
+for idx = 1:length(fileNames)
     fileName = fileNames{idx};
     disp([fileName '  ' num2str(idx) '/' num2str(length(fileNames))]);
 
